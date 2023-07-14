@@ -4,7 +4,7 @@ import random
 
 TOKEN = 'Enter_token_here'
 client = discord.Client(intents=discord.Intents.default())
-GUILD = os.getenv('DISCORD_GUILD')
+
 
 target_number = random.randint(1, 100)
 current_game = None
